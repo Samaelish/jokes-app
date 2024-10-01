@@ -25,6 +25,7 @@ const Joke = () => {
       setText('Error in connection. Try again later')
     }
   }
+  
   return (
     <div className='joke'>
       <p>{text}</p>
