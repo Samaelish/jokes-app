@@ -1,0 +1,22 @@
+.joke p {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+}
+
+.joke button {
+  padding: 0.6em 1.2em;
+  font-family: inherit;
+  font-size: 1.2rem;
+  font-weight: 500;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+.joke button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
